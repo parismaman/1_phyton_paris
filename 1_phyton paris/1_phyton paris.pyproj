@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
+    <Compile Include="_1_phyton_paris\class1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="_1_phyton_paris\__init__.py" />
     <Compile Include="_1_phyton_paris\views.py" />
   </ItemGroup>
@@ -68,7 +71,7 @@
     <Content Include="_1_phyton_paris\templates\contact.html" />
     <Content Include="_1_phyton_paris\templates\index.html" />
     <Content Include="_1_phyton_paris\templates\layout.html" />
-    <Content Include="_1_phyton_paris\PhotoAlbum.html" />
+    <Content Include="_1_phyton_paris\templates\PhotoAlbum.html" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|env" />

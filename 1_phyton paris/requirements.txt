@@ -1,4 +1,6 @@
-Flask<1
-pandas
-matplotlip
+Flask
+Pandas
+matplotlib
+Flask_wtf
 pynum
+requests
