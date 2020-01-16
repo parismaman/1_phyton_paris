@@ -21,9 +21,8 @@ def PhotoAlbum():
     """Renders the contact page."""
     return render_template(
         'PhotoAlbum.html',
-        title='PhotoAlbum',
+        title='Photo Album',
         year=datetime.now().year,
-        message='Your contact page.'
     )
 
 @app.route('/contact')
