@@ -18,6 +18,7 @@
     <Name>1_phyton paris</Name>
     <RootNamespace>1_phyton paris</RootNamespace>
     <InterpreterId>CondaEnv|CondaEnv|env</InterpreterId>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
