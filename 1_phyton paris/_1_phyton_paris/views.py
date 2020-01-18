@@ -21,7 +21,6 @@ def PhotoAlbum():
     """Renders the contact page."""
     return render_template(
         'PhotoAlbum.html',
-        title='Photo Album',
         year=datetime.now().year,
     )
 
